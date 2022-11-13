@@ -1,0 +1,67 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kf9in6');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kf9in6#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?kf9in6') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?kf9in6') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?kf9in6##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-amazon_logo .path1 {
+  font-size: 2em;
+  &:before {
+    content: $icon-amazon_logo-path1;
+  }
+}
+.icon-amazon_logo .path2 {
+  font-size: 2em;
+  &:before {
+    content: $icon-amazon_logo-path2;  
+    margin-left: -4.7134765625em;
+  }
+}
+
+.icon-filmhub {
+  font-size: 1.6em;
+  &:before {
+    content: $icon-filmhub;
+  }
+}
+.icon-kpinsonstairs {
+  font-size: 3em;
+  &:before {
+    content: $icon-kpinsonstairs;
+  }
+}
+.icon-nfx {
+  font-size: 2.5em;
+  &:before {
+    content: $icon-nfx;
+  }
+}
+.icon-opto22 {
+  &:before {
+    content: $icon-opto22; 
+  }
+}
+
